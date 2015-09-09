@@ -1,0 +1,81 @@
+input{
+	width: 97%;
+	border: thin groove #BBA8A8;
+	padding: 2px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 0;
+}
+#chat{
+	width: 200px;
+	float: right;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+#head{
+	width: 94%;
+	padding: 5px;
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	border: thin groove #807777;
+	background-color: #DBD1D1;
+	position: absolute;
+	bottom: 0px;
+}
+#head:hover{
+	background-color: #B2F694;
+	cursor: pointer;
+}
+#listchat{
+	border: thin groove #807777;
+	visibility: hidden;
+}
+#listchat p{
+	margin: 0px;
+	padding: 5px;
+	background-image: url('dot.png');
+	background-repeat: no-repeat;
+	background-position: 180px center;
+}
+#listchat p:hover{
+	background-color: #B2F694;
+	cursor: pointer;
+}
+#expandchat{
+	width: 200px;
+	position: fixed;
+	bottom: 5px;
+	visibility: hidden;
+}
+#echead{
+	width: 94%;
+	padding: 5px;
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	border: thin groove #807777;
+	background-color: #E7DEDE;
+	position: absolute;
+	bottom: 0px;
+}
+#eclist{
+	border: thin groove #807777;
+	height: 250px;
+}
+#close{
+	width: 15px;
+	text-align: center;
+	border: thin groove #E7DEDE;
+	position: absolute;
+	right: 4px;
+	top: 0px;
+}
+#close:hover{
+	background-color: #9DEB9F;
+	border: thin groove #807777;
+	cursor: pointer;
+}
